@@ -22,3 +22,17 @@ var items = document.getElementsByTagName("li");
 for (let i = 0; i < items.length; i++) {
   items[i].style.backgroundColor = "red";
 }
+// queryselector(1st answer)
+// var header = document.querySelector("ul li:nth-child(2)");
+// header.style.backgroundColor = "green";
+
+// 2nd answer
+// var headerInvisible = document.querySelector("ul li:nth-child(3)");
+// headerInvisible.style.color = "white";
+
+//3rd answer
+var odd = document.querySelectorAll("li:nth-child(odd)");
+
+for (let i = 0; i < odd.length; i++) {
+  odd[i].style.backgroundColor = "red";
+}
